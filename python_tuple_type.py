@@ -11,7 +11,6 @@ for i in range(len(a)):
         elif x.imag == 0:
             try:
                 x = float(a[i])
-                print(x.is_integer())
                 if x.is_integer():
                     x = int(a[i])
                     a[i] = x
